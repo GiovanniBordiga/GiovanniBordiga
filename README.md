@@ -1,12 +1,13 @@
-## Hi there! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px">
+## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> Hi there!
 
 
-## GitHub Stats :octocat:
+## :octocat: GitHub Stats
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=GiovanniBordiga&count_private=true&show_icons=true&theme=gotham" height="160px">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GiovanniBordiga&layout=compact&theme=gotham" height="160px">
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=GiovanniBordiga&count_private=true&show_icons=true&theme=gotham" height="160">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GiovanniBordiga&layout=compact&theme=gotham" height="160">
 </p>
+
 
 <!--
 **GiovanniBordiga/GiovanniBordiga** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
