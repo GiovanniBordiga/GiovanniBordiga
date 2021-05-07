@@ -11,9 +11,9 @@
 
 ## 👨‍💻 &nbsp; About me
 
-🔭 &nbsp; I'm a PostDoc researching on material instabilities, metamaterials, and wave propagation.\
+🔭 &nbsp; I'm a PostDoc researching on material instabilities, mechanical metamaterials, and wave propagation.\
 👨‍🎓 &nbsp; I have a PhD in _Solid and Structural Mechanics_ from the _University of Trento (Italy)_.\
-🌱 &nbsp; I’m currently learning how to have a day with 72 hours 😜.\
+🌱 &nbsp; I’m currently learning how to live a day with 72 hours 😜.\
 💬 &nbsp; Ask me about Mathematica/MATLAB programming, finite element analysis, or anything related to my research 😉.\
 🆓 &nbsp; In my free time I like to expand my coding skills (currently learning Python and JavaScript).\
 🧾 &nbsp; You can check my [CV](https://giovannibordiga.keybase.pub/CV_full.pdf) for more details about my research.\
