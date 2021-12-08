@@ -14,10 +14,10 @@
 🔭 &nbsp; I'm a PostDoc researching on material instabilities, mechanical metamaterials, and wave propagation.\
 👨‍🎓 &nbsp; I have a PhD in _Solid and Structural Mechanics_ from the _University of Trento (Italy)_.\
 🌱 &nbsp; I’m currently trying to fit 72 hours within a day 😜.\
-💬 &nbsp; Ask me about Mathematica/MATLAB programming, finite element analysis, or anything related to my research 😉.\
+💬 &nbsp; Ask me about Mathematica/MATLAB/Python programming, finite element analysis, or anything related to my research 😉.\
 🆓 &nbsp; In my free time I like to expand my coding skills (currently learning Python and JavaScript).\
 🧾 &nbsp; You can check my [CV](https://giovannibordiga.keybase.pub/CV_full.pdf) for more details about my research.\
-📫 &nbsp; Feel free to reach out to me via [email](mailto:giovanni.bordiga@unitn.it) or [Keybase](https://keybase.io/giovannibordiga).\
+📫 &nbsp; Feel free to reach out to me via [email](mailto:gbordiga@seas.harvard.edu) or [Keybase](https://keybase.io/giovannibordiga).\
 ⚡ &nbsp; Fun fact: I ❤️ <a href="http://deadcat.epizy.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Bitcoin_over_Lightning_Network.svg" width="26" align="center"></a>.
 
 ## :octocat: &nbsp; GitHub Stats
