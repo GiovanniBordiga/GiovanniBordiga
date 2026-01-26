@@ -17,7 +17,7 @@
 💬 &nbsp; Ask me about Mathematica/MATLAB/Python programming, finite element analysis, or anything related to my research 😉.\
 🆓 &nbsp; In my free time, I like to expand my coding skills 💻, bike around 🚲, hike around ⛰️, and play beach volleyball 🏐.\
 🧾 &nbsp; You can check out my [CV](https://giovannibordiga.com/assets/pdf/CV_full.pdf) for more details about my research.\
-📫 &nbsp; Feel free to reach out to me via [email](mailto:gbordiga@seas.harvard.edu) or [Keybase](https://keybase.io/giovannibordiga).\
+📫 &nbsp; Feel free to reach out via [email](mailto:gbordiga@seas.harvard.edu).\
 ⚡ &nbsp; Fun fact: I ❤️ <a href="http://deadcat.epizy.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Bitcoin_over_Lightning_Network.svg" width="26" align="center"></a>.
 
 ## :octocat: &nbsp; GitHub Stats
