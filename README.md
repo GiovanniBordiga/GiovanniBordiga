@@ -7,7 +7,7 @@
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?logo=linkedin&labelColor=34495e&color=0A66C2&logoColor=ecf0f1)](https://www.linkedin.com/in/giovannibordiga/)
 [![Keybase](https://img.shields.io/badge/-Keybase-blue?logo=keybase&labelColor=34495e&color=33A0FF&logoColor=ecf0f1)](https://keybase.io/giovannibordiga)
 ![GitHub followers](https://img.shields.io/github/followers/GiovanniBordiga?label=Followers&logo=github&labelColor=34495e)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FGiovanniBordiga%2FGiovanniBordiga&count_bg=%2327AE60&title_bg=%2334495E&icon=github.svg&icon_color=%23E7E7E7&title=Hits&edge_flat=false)](https://hits.seeyoufarm.com)
+![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2FGiovanniBordiga%2FGiovanniBordiga&label=Visits&icon=heart-fill&color=%232ecc71&message=&style=flat&tz=UTC)
 
 ## 👨‍💻 &nbsp; About me
 
