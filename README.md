@@ -23,6 +23,6 @@
 ## :octocat: &nbsp; GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=GiovanniBordiga&count_private=true&show_icons=true&theme=gotham" height="160">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GiovanniBordiga&layout=compact&theme=gotham" height="160">
+  <img src="./profile/stats.svg" height="160">
+  <img src="./profile/top-langs.svg" height="160">
 </p>
