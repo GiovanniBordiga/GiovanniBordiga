@@ -63,7 +63,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
-          options: username=${{ matrix.username }}&repo=${{ matrix.repo }}&show_owner=true&theme=gotham
+          options: username=${{ matrix.username }}&repo=${{ matrix.repo }}&show_owner=true&description_lines_count=2&theme=gotham
           path: profile/pin-${{ matrix.username }}-${{ matrix.repo }}.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
