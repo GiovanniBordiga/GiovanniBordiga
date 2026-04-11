@@ -6,11 +6,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  generate-stats:
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: write
 
     steps:
       - uses: actions/checkout@v6
@@ -31,69 +28,64 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate pin card for bertoldi-collab/DifFlexMM
+      - uses: actions/upload-artifact@v4
+        with:
+          name: stats-cards
+          path: profile/*.svg
+
+  generate-pin-cards:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        include:
+          - username: bertoldi-collab
+            repo: DifFlexMM
+          - username: bertoldi-collab
+            repo: morphing-lattices
+          - username: bertoldi-collab
+            repo: textile-hinge-metamaterials
+          - username: bertoldi-collab
+            repo: tracking-markers
+          - username: bertoldi-collab
+            repo: jax-intro
+          - username: GiovanniBordiga
+            repo: ProbabilisticBricks
+          - username: GiovanniBordiga
+            repo: TOP-OPT-Plates
+          - username: GiovanniBordiga
+            repo: latex-subfigs-combiner
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Generate pin card for ${{ matrix.username }}/${{ matrix.repo }}
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
-          options: username=bertoldi-collab&repo=DifFlexMM
-          path: profile/pin-bertoldi-collab-DifFlexMM.svg
+          options: username=${{ matrix.username }}&repo=${{ matrix.repo }}
+          path: profile/pin-${{ matrix.username }}-${{ matrix.repo }}.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate pin card for bertoldi-collab/morphing-lattices
-        uses: readme-tools/github-readme-stats-action@v1
+      - uses: actions/upload-artifact@v4
         with:
-          card: pin
-          options: username=bertoldi-collab&repo=morphing-lattices
-          path: profile/pin-bertoldi-collab-morphing-lattices.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          name: pin-${{ matrix.username }}-${{ matrix.repo }}
+          path: profile/pin-${{ matrix.username }}-${{ matrix.repo }}.svg
 
-      - name: Generate pin card for bertoldi-collab/textile-hinge-metamaterials
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: pin
-          options: username=bertoldi-collab&repo=textile-hinge-metamaterials
-          path: profile/pin-bertoldi-collab-textile-hinge-metamaterials.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+  commit:
+    needs: [generate-stats, generate-pin-cards]
+    runs-on: ubuntu-latest
 
-      - name: Generate pin card for bertoldi-collab/tracking-markers
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: pin
-          options: username=bertoldi-collab&repo=tracking-markers
-          path: profile/pin-bertoldi-collab-tracking-markers.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+    permissions:
+      contents: write
 
-      - name: Generate pin card for bertoldi-collab/jax-intro
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: pin
-          options: username=bertoldi-collab&repo=jax-intro
-          path: profile/pin-bertoldi-collab-jax-intro.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v6
 
-      - name: Generate pin card for GiovanniBordiga/ProbabilisticBricks
-        uses: readme-tools/github-readme-stats-action@v1
+      - uses: actions/download-artifact@v4
         with:
-          card: pin
-          options: username=GiovanniBordiga&repo=ProbabilisticBricks
-          path: profile/pin-GiovanniBordiga-ProbabilisticBricks.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate pin card for GiovanniBordiga/TOP-OPT-Plates
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: pin
-          options: username=GiovanniBordiga&repo=TOP-OPT-Plates
-          path: profile/pin-GiovanniBordiga-TOP-OPT-Plates.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate pin card for GiovanniBordiga/latex-subfigs-combiner
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: pin
-          options: username=GiovanniBordiga&repo=latex-subfigs-combiner
-          path: profile/pin-GiovanniBordiga-latex-subfigs-combiner.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          path: profile/
+          merge-multiple: true
 
       - name: Commit cards
         run: |
