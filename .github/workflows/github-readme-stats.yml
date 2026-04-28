@@ -42,6 +42,8 @@ jobs:
           - username: bertoldi-collab
             repo: DifFlexMM
           - username: bertoldi-collab
+            repo: MechanicalMetamaterialCloaks
+          - username: bertoldi-collab
             repo: morphing-lattices
           - username: bertoldi-collab
             repo: textile-hinge-metamaterials
