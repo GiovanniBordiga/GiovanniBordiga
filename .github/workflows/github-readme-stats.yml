@@ -33,7 +33,12 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: stats-cards
-          path: profile/*.svg
+          # Only the cards this job generates -- a profile/*.svg glob would also
+          # sweep up the checked-out pin cards and clobber the fresh ones that
+          # generate-pin-cards uploads, since the commit job merges both here.
+          path: |
+            profile/stats.svg
+            profile/top-langs.svg
 
   generate-pin-cards:
     runs-on: ubuntu-latest
