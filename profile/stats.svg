@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Giovanni Bordiga&#39;s GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 60, Total Commits  (last year) : 2315, Total PRs: 52, Total Issues: 39, Contributed to (last year): 9</desc>
+        <desc id="descId">Total Stars Earned: 60, Total Commits  (last year) : 2319, Total PRs: 55, Total Issues: 39, Contributed to (last year): 9</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 78.84274434819598;
+        stroke-dashoffset: 77.59723038101973;
       }
     }
   
@@ -199,7 +199,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >52</text>
+      >55</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
